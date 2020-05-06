@@ -11,22 +11,22 @@ export let config: Config = {
         print: function(){}
     },
 
-    capabilities:{
-        browserName : 'chrome',
-        chromeOptions: {'args': ['disable-infobars']},
-        //browserName : 'firefox',
-        //marionette : true,
-        acceptSslCerts : true
-    }
+    // capabilities:{
+    //     browserName : 'chrome',
+    //     chromeOptions: {'args': ['disable-infobars']},
+    //     //browserName : 'firefox',
+    //     //marionette : true,
+    //     acceptSslCerts : true
+    // }
     
-    // multiCapabilities : [
-    //     {
-    //         "browserName" : "chrome"
-    //     },
-    //     {
-    //         "browserName" : "firefox"
-    //     }
-    // ]
+    multiCapabilities : [
+        {
+            "browserName" : "chrome"
+        },
+        {
+            "browserName" : "firefox"
+        }
+    ]
     ,
 
     suites: {
