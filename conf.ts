@@ -17,7 +17,17 @@ export let config: Config = {
         //browserName : 'firefox',
         //marionette : true,
         acceptSslCerts : true
-    },
+    }
+    
+    // multiCapabilities : [
+    //     {
+    //         "browserName" : "chrome"
+    //     },
+    //     {
+    //         "browserName" : "firefox"
+    //     }
+    // ]
+    ,
 
     suites: {
         calc : './specs/calculator.js',
