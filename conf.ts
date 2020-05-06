@@ -27,6 +27,7 @@ export let config: Config = {
             "browserName" : "firefox"
         }
     ]
+    
     ,
 
     suites: {
